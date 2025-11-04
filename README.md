@@ -12,32 +12,32 @@ The goal is to build an end-to-end data pipeline that ingests transaction data f
 The retail business wants to analyze its daily sales performance and customer behavior.
 Since raw data isn’t readily available, data engineers must create a pipeline that:
 
-Fetches transactional data from APIs
+1.Fetches transactional data from APIs
 
-Stores raw data in Azure Data Lake Storage (ADLS)
+2.Stores raw data in Azure Data Lake Storage (ADLS)
 
-Cleans and transforms data into Silver datasets
+3.Cleans and transforms data into Silver datasets
 
-Creates Gold aggregated tables for analysis and visualization
+4.Creates Gold aggregated tables for analysis and visualization
 
 📊 Key Business Metrics
 
-Daily Revenue & Purchases
+1.Daily Revenue & Purchases
 
 Calculate daily total revenue and transaction counts
 
-Revenue by Payment Method
+2.Revenue by Payment Method
 
 Compare revenue across different payment types (Credit, Cash, etc.)
 
-Store Performance
+3.Store Performance
 
 Rank stores based on total revenue, transactions, and average order value
 
-Loyalty Level Revenue Contribution
+4.Loyalty Level Revenue Contribution
 
 Analyze contribution from different customer loyalty tiers
 
-Product Category Sales
+5.Product Category Sales
 
 Track sales and revenue by product category
