@@ -1,24 +1,43 @@
-# Retail_Project
-AZURE-DATA-ENGINEER---DATABRICKS-PROJECTS
+🛍️ Retail Data Engineering Project
 
-BUSINESS REQUIREMENTS:
+Project Name: AZURE-DATA-ENGINEER---DATABRICKS-PROJECTS
 
-We are working for the retail clients and we have transaction related data.
-Business wants to analyze business performance and they have given multiple metrics.
-Note -
+📖 Project Overview
 
-Data is not readily available so we need data engineers to create pipeline which will fetch the data from api and store in adls location.
+This project simulates a retail data analytics pipeline using Azure Data Engineering tools and Databricks.
+The goal is to build an end-to-end data pipeline that ingests transaction data from APIs, processes it in different layers (Bronze, Silver, Gold), and provides business insights via visualization.
 
-Once we have data available in adls location we have to create silver dataset to clean the data.
+🎯 Business Requirements
 
-Finally we have to create aggregate gold dataset and derive the metrics and visulization
+The retail business wants to analyze its daily sales performance and customer behavior.
+Since raw data isn’t readily available, data engineers must create a pipeline that:
 
-1.Daily Revenue & Purchases
+Fetches transactional data from APIs
 
-2.Revenue by Payment Method
+Stores raw data in Azure Data Lake Storage (ADLS)
 
-3.Store Performance
+Cleans and transforms data into Silver datasets
 
-4.Loyalty Level Revenue Contribution
+Creates Gold aggregated tables for analysis and visualization
 
-5.Product Category Sales
+📊 Key Business Metrics
+
+Daily Revenue & Purchases
+
+Calculate daily total revenue and transaction counts
+
+Revenue by Payment Method
+
+Compare revenue across different payment types (Credit, Cash, etc.)
+
+Store Performance
+
+Rank stores based on total revenue, transactions, and average order value
+
+Loyalty Level Revenue Contribution
+
+Analyze contribution from different customer loyalty tiers
+
+Product Category Sales
+
+Track sales and revenue by product category
